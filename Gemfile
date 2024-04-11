@@ -14,10 +14,10 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
+  gem "sqlite3", "~> 1.4"
 end
 
 group :development do
-  gem "sqlite3", "~> 1.4"
   gem "web-console"
 end
 
