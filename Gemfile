@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 ruby "3.2.3"
-gem "sqlite3", "~> 1.4"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
